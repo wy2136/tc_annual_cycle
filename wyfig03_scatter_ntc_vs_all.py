@@ -8,7 +8,8 @@ import sys, os.path, os, glob
 import xarray as xr, numpy as np, pandas as pd
 import matplotlib.pyplot as plt
 #more imports
-import xaddon
+#import xaddon
+import xlinregress
 #from fig_scatter_ntc_vs_all_mbasins_v4 import scatterplot
 #
 if __name__ == '__main__':
@@ -126,8 +127,9 @@ if __name__ == '__main__':
     if suptitle is not None:
         fig.suptitle(suptitle)
 
-    figname = __file__.replace('.py', '.png')
     if len(sys.argv) > 1 and sys.argv[1] == 'savefig':
+        #figname = __file__.replace('.py', '.png')
+        figname = __file__.replace('.py', '.pdf')
         wysavefig(figname)
 
     tt.check(f'**Done**')

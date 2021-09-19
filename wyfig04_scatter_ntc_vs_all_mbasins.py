@@ -8,7 +8,8 @@ import sys, os.path, os, glob
 import xarray as xr, numpy as np, pandas as pd
 import matplotlib.pyplot as plt
 #more imports
-import xaddon
+#import xaddon
+import xlinregress
 #from data_basin_areas import da as basin_areas
 #
 if __name__ == '__main__':
@@ -233,8 +234,9 @@ if __name__ == '__main__':
     ax = axes[2,2]; ax.text(1.02, 0.5, 'AM2.5', transform=ax.transAxes, ha='left', va='center', rotation=theta)
     ax = axes[3,2]; ax.text(1.02, 0.5, 'AM2.5C360', transform=ax.transAxes, ha='left', va='center', rotation=theta)
 
-    figname = __file__.replace('.py', '.png')
     if len(sys.argv) > 1 and sys.argv[1] == 'savefig':
+        #figname = __file__.replace('.py', '.png')
+        figname = __file__.replace('.py', '.pdf')
         wysavefig(figname)
 
     tt.check(f'**Done**')

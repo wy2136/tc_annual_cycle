@@ -40,7 +40,8 @@ if __name__ == '__main__':
     
     #savefig
     if len(sys.argv) > 1 and sys.argv[1] == 'savefig':
-        figname = __file__.replace('.py', f'.png')
+        #figname = __file__.replace('.py', f'.png')
+        figname = __file__.replace('.py', f'.pdf')
         wysavefig(figname)
     tt.check(f'**Done**')
     plt.show()
