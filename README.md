@@ -28,7 +28,7 @@ wyfig??_* are new versions that replace wyFig??.*
 
 ## list of figures
 
-* [wyfig01_barline_cycle_ntc_pTang.py](wyfig01_barline_cycle_ntc_pTang.py}
+* [wyfig01_barline_cycle_ntc_pTang.py](wyfig01_barline_cycle_ntc_pTang.py)
 ![wyfig01_barline_cycle_ntc_pTang.png](wyfig01_barline_cycle_ntc_pTang.png)
 [wyfig01_barline_cycle_ntc_pTang.pdf](wyfig01_barline_cycle_ntc_pTang.pdf)
 
