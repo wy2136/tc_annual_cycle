@@ -27,9 +27,9 @@ v4p1 (2020-12-08): scatter plots from obs and models merged
 wyfig??_* are new versions that replace wyFig??.*
 
 
-* wyfig01a_barline_cycle_ntc_pTang.py
+* [wyfig01a_barline_cycle_ntc_pTang.py](wyfig01a_barline_cycle_ntc_pTang.py)
 ![img](wyfig01a_barline_cycle_ntc_pTang.png)
-[data](wyfig01a_barline_cycle_ntc_pTang.NA.nc)
+[wyfig01a_barline_cycle_ntc_pTang.NA.nc](wyfig01a_barline_cycle_ntc_pTang.NA.nc)
 
 wyfig01_barline_cycle_ntc_pTang.pdf
 wyfig01_barline_cycle_ntc_pTang.png
